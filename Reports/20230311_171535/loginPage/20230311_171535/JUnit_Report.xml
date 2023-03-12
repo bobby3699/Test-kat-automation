@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginPage" time="47.642" tests="2" failures="0" errors="0">
+   <testsuite name="loginPage" tests="2" failures="0" errors="0" time="47.642" skipped="0" timestamp="2023-03-11 17:15:48" hostname="babul.k - localhost" id="Test Suites/loginPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/babul.k/Documents/testkatalon/Test-kat-automation/Reports/20230311_171535/loginPage/20230311_171535"/>
+         <property name="logFiles" value="/Users/babul.k/Documents/testkatalon/Test-kat-automation/Reports/20230311_171535/loginPage/20230311_171535/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="babul.k - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="c760ee2178816e7c7a3bdd1f2c60f915"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/launch_browser_with url" time="20.295" classname="Test Cases/launch_browser_with url" status="PASSED">
+         <system-out><![CDATA[2023-03-11 17:15:49 - [TEST_CASE][PASSED] - Test Cases/launch_browser_with url: Test Cases/launch_browser_with url
+
+2023-03-11 17:15:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-11 17:15:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-11 17:15:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-11 17:16:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-11 17:16:01 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-03-11 17:16:09 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-03-11 17:16:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-11 17:16:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_browser" time="26.868" classname="Test Cases/login_browser" status="PASSED">
+         <system-out><![CDATA[2023-03-11 17:16:09 - [TEST_CASE][PASSED] - Test Cases/login_browser: Test Cases/login_browser
+
+2023-03-11 17:16:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-11 17:16:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-11 17:16:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-11 17:16:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-11 17:16:15 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-03-11 17:16:25 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2023-03-11 17:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username")): Object: 'Object Repository/Page_OrangeHRM/input_Username_username' is clicked on
+
+2023-03-11 17:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Username_username' is clicked on
+
+2023-03-11 17:16:30 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username")): Object: 'Object Repository/Page_OrangeHRM/input_Username_username' is double clicked on
+
+2023-03-11 17:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Username_username' is double clicked on
+
+2023-03-11 17:16:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+2023-03-11 17:16:32 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+2023-03-11 17:16:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+2023-03-11 17:16:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+2023-03-11 17:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-03-11 17:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2023-03-11 17:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-11 17:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-11 17:15:48 - [TEST_SUITE][PASSED] - loginPage: Test Cases/login_browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

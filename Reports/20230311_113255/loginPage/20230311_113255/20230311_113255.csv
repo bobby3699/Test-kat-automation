@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginPage,Chrome 111.0.0.0,,,2023-03-11 11:33:09,2023-03-11 11:33:26,16.571s,PASSED
+,,,,,,,
+Test Cases/launch_browser_with url,Chrome 111.0.0.0,la,sdfd,2023-03-11 11:33:09,2023-03-11 11:33:26,16.082s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-11 11:33:10,2023-03-11 11:33:21,11.656s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 111.0.0.0,,,2023-03-11 11:33:21,2023-03-11 11:33:25,3.908s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-11 11:33:25,2023-03-11 11:33:26,0.127s,PASSED
